@@ -1,0 +1,33 @@
+{
+  "name": "confusion",
+  "version": "1.0.0",
+  "description": "This is a website for Ristorante Con Fusion",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server",
+    "scss": "node-sass -o css/ css/"
+  },
+  "author": "Abhishek C",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.5.4",
+    "node-sass": "^4.14.1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "bootstrap-social": "^5.1.1",
+    "font-awesome": "^4.7.0",
+    "http-proxy": "^1.18.1",
+    "jquery": "^3.5.1",
+    "minimist": "^1.2.3",
+    "popper.js": "^1.16.0",
+    "yargs-parser": "^15.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://abhishekcherukuru@bitbucket.org/abhishekcherukuru/git-test.git"
+  },
+  "homepage": "https://bitbucket.org/abhishekcherukuru/git-test#readme"
+}
